@@ -1,0 +1,50 @@
+#hello{
+    color: darkblue;
+    max-width: 200px;
+    background-color: lightgray;
+}
+
+.home{
+    background-color: lightblue;
+    position: relative;
+    top: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+table{
+    border: 1px solid black;
+    margin:5%;
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+}
+button{
+    animation: float 2000ms infinite alternate-reverse;
+    transition: all 300ms;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+@keyframes float{
+    0%{
+    transform:translateX(0);
+    }
+
+100%{
+    transform: translateX(30px);
+}
+}
+
+.nav-link{
+    background-color: lightgray;
+}
+.nav-link .nav-link--active{
+    color: purple;
+}
