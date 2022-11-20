@@ -1,7 +1,51 @@
-.container{
-    display: flex;
-    align-content: flex-end;
+/* url('https://image.ibb.co/cO9Lxq/login-bg.jpg'*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: #181818;
+    color: white;
+    overflow: hidden;
 }
-.par{
-    border: 1px solid black;
+
+h1,h2,h3,h4,h5,h6{font-weight: 300;}
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+#right{
+    flex: 1;
+}
+
+#sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+#sign-in form{
+    width: 80%;
+    padding-bottom: 3rem;
+}
+
+#sign-in .logo{
+    margin-bottom: 8vh;
+}
+
+#sign-in .logo img{
+    width: 300px;
 }
